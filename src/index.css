@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    text-align: center;
+    background-color: rgb(247, 239, 239);
+}
+
+.heading {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(247, 239, 239);
+    background-color: white;
+}
+
+span {
+    font-size: 25px;
+}
+
+/* div {
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+}
+
+h1 {
+    border: 1px solid black;
+    padding: 30px 30px;
+    border-radius: 20px;
+    background-color: white;
+
+}  */
+
+.cards {
+    width:300px;
+    height:300px;
+    margin:50px 30px 30px 50px;
+    display: inline-block;
+    border: 1px solid rgb(247, 239, 239);
+    border-radius: 7px;
+}
+
+
+.img_cards{
+    width:300px;
+    height:200px;
+    text-align: center;
+}
+
+.img_cards img {
+    width:280px;
+    height:200px;
+    border-radius: 10px;
+
+}
+
+.img_cards img:hover {
+    zoom: 1.05;
+
+}
+
+.intro {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.intro h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    font-size: large;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
 }
